@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: "" ;
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 100%;
+    height: 100%;;
+}
+body {
+    color: #373a3c ;
+}
+/* === sidebar styling start ==*/
+
+.sidebar {
+ background-color:#006599;
+height: 100vh;
+width: 30%;
+float: left;
+color: white;
+text-align: center ;
+position: fixed;
+}
+.sidebar-header {
+ margin: 35px 0 0;
+
+}
+.sidebar-header h1 {
+    margin-top: 0;
+    font-weight:400px;
+    font: size 5px;
+    text-transform: capitalize;
+}
+.sidebar-body-list li {
+    margin-top: 35px;
+margin-bottom:  35px;
+font-size: 27px;
+font-weight: 300;
+text-transform: capitalize;}
+.sidebar-body-list {
+list-style-type: none;
+}
+.sidebar-body-list li a {
+   text-decoration: none;
+   color: white;
+
+}
+.sidebar-body-list li a:hover {
+    color: rgb(191, 154, 6);
+}
+/*=== sidebar styling end ===*/
+
+/*====content header start====*/
+.content {
+    background-color: white;
+  
+
+}
+.content-header {
+ margin-left: 30%;
+}
+.content .content-header > image {
+    width: 70%;
+    height: 100v;
+}
+.content-welcome {
+    margin: 50px 50px 80px;
+}
+
+/*====content header end====*/
+
+/*====content welcom start====*/
+.content-welcome h2 {
+    font-size: 3rem;
+    font-weight: 400;
+  color: #006599;
+  margin-bottom: 35px;
+  margin-left: 35px;
+
+}
+.content-welcome p {
+line-height: 2;
+margin-left: 1cm;
+}
+/*====content welcom end====*/
+
+/*=== content about us start ===*/
+.content-about {
+    margin: 35px;
+   
+}
+.content-about-imag {
+    float: left;
+    margin: 50px;
+    width: 250px;
+    
+}
+.content-about-imag>img {
+    width: 100%;
+   position: relative; bottom: 1cm;
+}
+.content-about-info h3 {
+    font-size: 3rem;
+  font-weight: 400;
+  color: #006599;
+  margin-bottom: 35px;
+  margin-left: 35px;
+}
+.content-about-info p {
+    line-height: 2;
+margin-left: 1cm;
+margin-bottom: 20px;
+}
+.content-about-info a {
+    color:white;
+    background-color: #006599;
+    text-decoration: none;
+padding: 20px 60px;
+font-size: 25px;
+font-weight: 300;
+display: inline-block;
+}
+.content-about-info a:hover {
+    background-color: #68a4c2;
+}
+
+/*=== content about us end ===*/
+
+/*=== fist gallery section start===*/
+.first-gallery {
+    margin: 50px 50px 80px;
+}
+.first-gallery h2 {
+    font-size: 3rem;
+  font-weight: 400;
+  color: #006599;
+  margin-bottom: 35px;
+  margin-left: 35px;
+}
+.first-gallery .first-gallery-collum {
+    float: left;
+    width: 20%;
+   
+}
+.first-gallery .first-gallery-collum img {
+    width: 100%;
+    padding: 8px;
+}
+
+/*=== first gallery section  end===*/
+
+/*===  second gallery section start===*/
+
+    .second-gallery {
+        margin: 50px 50px 80px;
+    }
+    .second-gallery h2 {
+        font-size: 3rem;
+      font-weight: 500;
+      color: #006599;
+      margin-bottom: 35px;
+      
+     
+    }
+    .second-gallery .second-gallery-collum {
+        float: left;
+        width: 33.33%;
+       
+    }
+    .second-gallery .second-gallery-collum img {
+        width: 100%;
+        padding: 8px;
+    }
+/*===  second gallery section end ===*/
+
+
+/*===  third gallery section start===*/
+.second-gallery {
+    margin: 50px 50px 80px;
+}
+.third-gallery h2 {
+    font-size: 3rem;
+  font-weight: 300;
+  color: #006599;
+  margin-bottom: 35px;
+ 
+}
+.third-gallery .third-gallery-collum {
+    float: left;
+    width: 25%;
+   
+}
+.third-gallery .third-gallery-collum img {
+    width: 100%;
+    padding: 8px;
+}
+
+/*===  third gallery section start===*/
+
+/*===contect section start==*/
+.contect-info {
+    margin: 50px 50px 90px;
+   
+   
+}
+.form-group {
+    float: left;
+    margin-bottom: 100px;
+}
+.content-contect h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #006599;
+    margin-bottom: 35px;  
+margin-right: 35px;
+
+}
+.form-group input,textarea {
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 2px 6px;
+    border: 1px solid #0a6697;
+    outline: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: #55595c;
+ 
+
+}
+.form-group input::placeholder
+,textarea::placeholder {
+    color: #4286ab ;
+}
+
+.form-group input:focus
+,textarea:focus {
+    border-color:#66afe9 ;
+}
+
+.form-group input {
+    height: 45px;
+    width: 400px;
+}
+.form-group button {
+    color: white;
+    background-color: #006599;
+    width: 100px;
+    height: 70px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: center;
+    border: 0px;
+
+}
+.form-group button:hover {
+    background-color:#68a4c2 ;
+    cursor: pointer;
+}
+/*===contect section end==*/
+
+/*===footer section start==*/
+
+.info-last p {
+    text-align:left;
+    position: absolute;
+    right: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+}
+.info-last address {
+    text-align: left;
+position: absolute;
+right: 50px;
+padding-top: 170px;
+
+
+}
+.info-last p,.info-last address {
+    
+    height: 45px;
+    width: 400px;
+font-size: 20px;
+font-weight: 300;
+line-height: 1.7;
+
+}
+/*===footer section end==*/
+.footer-end {
+    margin: 60px 60px 40px;
+ 
+   }
+    
+.footer-end p {
+    font-size: 20px;
+font-weight: 300;
+}
+
+.footer-end a {
+    text-decoration: none;
+    color: #0275d8 ;
+}
+.footer-end a:hover {
+    color: #014c8c ;
+}
+
